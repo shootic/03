@@ -1,0 +1,48 @@
+div {
+    display: flex;
+    gap: 20px;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-blue{
+
+background-color: blue;
+
+}
+
+.wrapper {
+    flex-direction: column;
+}
+
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spacer {
+    height: 30vh;
+}
+
+.search {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shop{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.shop-item {
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    gap: 10px;
+}
